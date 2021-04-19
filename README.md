@@ -1,22 +1,61 @@
-# Interfaz de planta industrial de yogurt 
+# HMI Yogurt Manufacturing Process Plant
 
-Proyecto para la cátedra de Informática Avanzanda de la Universidad Nacional de La Matanza
- 
-Sistema operativo: Windows 10 /
-IDE: C++ Builder /
-Lenguajes: C, C++ y Pascal
+---
 
-<img src = "/HMI_Yogurt_Manufacturing_Process/Imagenes/Interfaz.png" >
+![Project.Cover](/Imagenes/Interfaz.png)
 
-Objetivo General:
+---
 
+### Download
+| Latest release | Latest development build |
+|----------------|--------------------------|
+| [![Noto](https://img.shields.io/badge/master-v1.0-green.svg)](Enlace a la version actual) | [![Noto](https://img.shields.io/badge/develop-v1.1+-blue.svg)](Enlace a la version en desarrollo) |
+
+---
+
+# Contents
+- 1 - [Introduction](#1-introduction)
+    - 1.1 - [Objetive]
+    - 1.2 - [Limits]
+    - 1.3 - [Scope]
+    - 1.4 - [Variables]
+    - 1.5 - [Events]
+    - 1.6 - [Hierarchy]
+- 2 - [Downloading the application](#2-downloading-the-game-pre-built)
+- 3 - [Building the game](#3-building-the-game)
+  - 3.1 - [Building prerequisites](#31-building-prerequisites)
+  - 3.2 - [Compiling and running](#32-compiling-and-running)
+- 4 - [Contributing](#4-contributing)
+- 5 - [Licence](#5-licence)
+
+---
+
+# 1. Introduction
+
+---
+
+## 1.1 - Objetive
 Se describe el proceso de la fabricación continua y  producción en serie del yogurt saborizado.
 
-Limites:
+---
 
+## 1.2 - Limits
 La descripción de la fabricación tomará partida desde la refrigeración de la leche sin procesar hasta que el yogur esté saborizado.
 
-Alcance:
+El proyecto no comprenderá las siguientes etapas:
+
+●	Transporte.
+
+●	Filtrado.
+
+●	Inoculación.
+
+●	Llenado.
+
+---
+
+## 1.3 - Scope
+
 
 El proyecto comprenderá las siguientes etapas:
 
@@ -36,21 +75,9 @@ El proyecto comprenderá las siguientes etapas:
 
 ●	Saborizado.
 
+---
 
-El proyecto no comprenderá las siguientes etapas:
-
-●	Transporte.
-
-●	Filtrado.
-
-●	Inoculación.
-
-●	Llenado.
-
-●	Empaquetado.
-
-
-Variables:
+## 1.4 - Variables
 
 Variables analógicas:
 
@@ -85,7 +112,10 @@ Variables discretas:
 11.	Apertura/Clausura de válvula de tanque de pre-enfriado e incubación.
 12.	Apertura/Clausura de válvula de tanque de enfriado.
 
-Eventos:
+---
+
+## 1.5 - Events
+
 
 ●	Marcha/Parada de motores.
 
@@ -99,8 +129,9 @@ Eventos:
 
 ●	Detalle de alarma.
 
+---
 
-Jerarquía de usuarios:
+## 1.6 - Hierarchy
 
 1.	Administrador:
  a.	Es responsable de modificar, agregar y eliminar las recetas. 
@@ -115,6 +146,25 @@ Jerarquía de usuarios:
 
 3.	Operario: 
  a.	Es responsable de operar la planta según la receta en curso dentro de los parámetros ideales.
- 
+    
+---
 
+# 2. Downloading the application
+
+---
+
+# 3. Building the application
+
+## 3.1 Building prerequisites
+
+---
+
+## 3.2 Compiling and running
+
+---
+
+# 4. Contributing
+
+---
+# 5. Licence
 

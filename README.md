@@ -15,7 +15,7 @@
 
 # Contents
 - 1 - [Introduction](#1-introduction)
-    - 1.1 - [Objetive](#11-objetive)
+    - 1.1 - [Building prerequisites](#11)
     - 1.2 - [Limits](#12)
     - 1.3 - [Scope](#13)
     - 1.4 - [Variables](#14)

@@ -15,7 +15,7 @@
 
 # Contents
 - 1 - [Introduction](#1-introduction)
-    - 1.1 - [Building prerequisites](#11)
+    - 1.1 - [Objetcive](#11-Objective)
     - 1.2 - [Limits](#12)
     - 1.3 - [Scope](#13)
     - 1.4 - [Variables](#14)
@@ -34,7 +34,7 @@
 
 ---
 
-## 1.1 - Objetive
+## 1.1 - Objective
 Se describe el proceso de la fabricación continua y  producción en serie del yogurt saborizado.
 
 ---

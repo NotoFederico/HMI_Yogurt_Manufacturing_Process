@@ -34,12 +34,14 @@
 
 ---
 
-## 1.1 - Objective
+## 1.1 Objective
+
 Se describe el proceso de la fabricación continua y  producción en serie del yogurt saborizado.
 
 ---
 
 ## 1.2 - Limits
+
 La descripción de la fabricación tomará partida desde la refrigeración de la leche sin procesar hasta que el yogur esté saborizado.
 
 El proyecto no comprenderá las siguientes etapas:
@@ -55,7 +57,6 @@ El proyecto no comprenderá las siguientes etapas:
 ---
 
 ## 1.3 - Scope
-
 
 El proyecto comprenderá las siguientes etapas:
 

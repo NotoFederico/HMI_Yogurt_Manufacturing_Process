@@ -40,7 +40,7 @@ Se describe el proceso de la fabricación continua y  producción en serie del y
 
 ---
 
-## 1.2 - Limits
+## 1.2 Limits
 
 La descripción de la fabricación tomará partida desde la refrigeración de la leche sin procesar hasta que el yogur esté saborizado.
 
@@ -56,7 +56,7 @@ El proyecto no comprenderá las siguientes etapas:
 
 ---
 
-## 1.3 - Scope
+## 1.3 Scope
 
 El proyecto comprenderá las siguientes etapas:
 
@@ -78,7 +78,7 @@ El proyecto comprenderá las siguientes etapas:
 
 ---
 
-## 1.4 - Variables
+## 1.4 Variables
 
 Variables analógicas:
 
@@ -115,7 +115,7 @@ Variables discretas:
 
 ---
 
-## 1.5 - Events
+## 1.5 Events
 
 
 ●	Marcha/Parada de motores.
@@ -132,7 +132,7 @@ Variables discretas:
 
 ---
 
-## 1.6 - Hierarchy
+## 1.6 Hierarchy
 
 1.	Administrador:
  a.	Es responsable de modificar, agregar y eliminar las recetas. 

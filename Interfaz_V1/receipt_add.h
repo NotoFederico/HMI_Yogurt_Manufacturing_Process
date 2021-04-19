@@ -1,0 +1,225 @@
+//---------------------------------------------------------------------------
+
+#ifndef receipt_addH
+#define receipt_addH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ExtCtrls.hpp>
+#include <DB.hpp>
+#include <DBTables.hpp>
+//---------------------------------------------------------------------------
+class TReceiptAdd : public TForm
+{
+__published:	// IDE-managed Components
+    TPanel *Panel1;
+    TPanel *Panel2;
+    TPanel *Panel3;
+    TPanel *Panel4;
+    TPanel *Panel5;
+    TPanel *Panel6;
+    TPanel *Panel7;
+    TPanel *Panel8;
+    TPanel *Panel9;
+    TLabel *Label1;
+    TPanel *Panel10;
+    TLabel *Label2;
+    TPanel *Panel11;
+    TLabel *Label3;
+    TPanel *Panel12;
+    TLabel *Label4;
+    TPanel *Panel13;
+    TLabel *Label5;
+    TPanel *Panel14;
+    TLabel *Label6;
+    TPanel *Panel15;
+    TEdit *Edit1;
+    TPanel *Panel16;
+    TPanel *Panel17;
+    TPanel *Panel22;
+    TLabel *Label7;
+    TPanel *Panel23;
+    TLabel *Label8;
+    TPanel *Panel24;
+    TLabel *Label9;
+    TPanel *Panel25;
+    TLabel *Label10;
+    TPanel *Panel26;
+    TLabel *Label11;
+    TPanel *Panel27;
+    TLabel *Label12;
+    TPanel *Panel28;
+    TLabel *Label13;
+    TPanel *Panel29;
+    TLabel *Label14;
+    TPanel *Panel30;
+    TLabel *Label15;
+    TPanel *Panel31;
+    TLabel *Label16;
+    TPanel *Panel32;
+    TLabel *Label17;
+    TPanel *Panel33;
+    TLabel *Label18;
+    TPanel *Panel34;
+    TLabel *Label19;
+    TPanel *Panel35;
+    TLabel *Label20;
+    TPanel *Panel36;
+    TPanel *Panel37;
+    TPanel *Panel38;
+    TPanel *Panel39;
+    TPanel *Panel40;
+    TPanel *Panel41;
+    TPanel *Panel42;
+    TPanel *Panel43;
+    TPanel *Panel44;
+    TPanel *Panel45;
+    TPanel *Panel46;
+    TPanel *Panel47;
+    TPanel *Panel48;
+    TPanel *Panel18;
+    TPanel *Panel19;
+    TEdit *Edit2;
+    TPanel *Panel20;
+    TPanel *Panel21;
+    TPanel *Panel49;
+    TPanel *Panel50;
+    TPanel *Panel51;
+    TPanel *Panel52;
+    TPanel *Panel53;
+    TPanel *Panel54;
+    TPanel *Panel55;
+    TPanel *Panel56;
+    TPanel *Panel57;
+    TPanel *Panel58;
+    TPanel *Panel59;
+    TPanel *Panel60;
+    TPanel *Panel61;
+    TPanel *Panel62;
+    TPanel *Panel63;
+    TPanel *Panel64;
+    TPanel *Panel65;
+    TPanel *Panel66;
+    TPanel *Panel67;
+    TPanel *Panel68;
+    TPanel *Panel69;
+    TPanel *Panel70;
+    TPanel *Panel71;
+    TPanel *Panel72;
+    TPanel *Panel73;
+    TPanel *Panel74;
+    TPanel *Panel75;
+    TPanel *Panel76;
+    TPanel *Panel77;
+    TPanel *Panel78;
+    TPanel *Panel79;
+    TPanel *Panel80;
+    TPanel *Panel81;
+    TPanel *Panel82;
+    TPanel *Panel83;
+    TPanel *Panel84;
+    TPanel *Panel85;
+    TPanel *Panel86;
+    TPanel *Panel87;
+    TPanel *Panel88;
+    TPanel *Panel89;
+    TPanel *Panel90;
+    TPanel *Panel91;
+    TPanel *Panel92;
+    TPanel *Panel93;
+    TPanel *Panel94;
+    TPanel *Panel95;
+    TPanel *Panel96;
+    TPanel *Panel97;
+    TPanel *Panel98;
+    TPanel *Panel99;
+    TPanel *Panel100;
+    TPanel *Panel101;
+    TPanel *Panel102;
+    TPanel *Panel103;
+    TPanel *Panel104;
+    TButton *Button1;
+    TButton *Button2;
+    TGroupBox *GroupBox1;
+    TEdit *Edit71;
+    TEdit *Edit3;
+    TEdit *Edit4;
+    TEdit *Edit5;
+    TEdit *Edit6;
+    TEdit *Edit7;
+    TEdit *Edit8;
+    TEdit *Edit9;
+    TEdit *Edit10;
+    TEdit *Edit11;
+    TEdit *Edit12;
+    TEdit *Edit13;
+    TEdit *Edit14;
+    TEdit *Edit15;
+    TEdit *Edit16;
+    TEdit *Edit17;
+    TEdit *Edit18;
+    TEdit *Edit19;
+    TEdit *Edit20;
+    TEdit *Edit21;
+    TEdit *Edit22;
+    TEdit *Edit23;
+    TEdit *Edit24;
+    TEdit *Edit25;
+    TEdit *Edit26;
+    TEdit *Edit27;
+    TEdit *Edit28;
+    TEdit *Edit29;
+    TEdit *Edit30;
+    TEdit *Edit31;
+    TEdit *Edit32;
+    TEdit *Edit33;
+    TEdit *Edit34;
+    TEdit *Edit35;
+    TEdit *Edit36;
+    TEdit *Edit37;
+    TEdit *Edit38;
+    TEdit *Edit39;
+    TEdit *Edit40;
+    TEdit *Edit41;
+    TEdit *Edit42;
+    TEdit *Edit43;
+    TEdit *Edit44;
+    TEdit *Edit45;
+    TEdit *Edit46;
+    TEdit *Edit47;
+    TEdit *Edit48;
+    TEdit *Edit49;
+    TEdit *Edit50;
+    TEdit *Edit51;
+    TEdit *Edit52;
+    TEdit *Edit53;
+    TEdit *Edit54;
+    TEdit *Edit55;
+    TEdit *Edit56;
+    TEdit *Edit57;
+    TEdit *Edit58;
+    TEdit *Edit59;
+    TEdit *Edit60;
+    TEdit *Edit61;
+    TEdit *Edit62;
+    TEdit *Edit63;
+    TEdit *Edit64;
+    TEdit *Edit65;
+    TEdit *Edit66;
+    TEdit *Edit67;
+    TEdit *Edit68;
+    TEdit *Edit69;
+    TEdit *Edit70;
+    TQuery *Query1;
+    void __fastcall Button2Click(TObject *Sender);
+    void __fastcall Button1Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+    __fastcall TReceiptAdd(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TReceiptAdd *ReceiptAdd;
+//---------------------------------------------------------------------------
+#endif

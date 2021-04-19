@@ -1,0 +1,227 @@
+//---------------------------------------------------------------------------
+
+#ifndef receipt_editionH
+#define receipt_editionH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ExtCtrls.hpp>
+#include <DB.hpp>
+#include <DBTables.hpp>
+//---------------------------------------------------------------------------
+class TReceiptEdition : public TForm
+{
+__published:	// IDE-managed Components
+        TPanel *Panel1;
+        TPanel *Panel2;
+        TButton *Button1;
+        TButton *Button2;
+        TGroupBox *GroupBox1;
+        TPanel *Panel3;
+        TPanel *Panel9;
+        TLabel *Label1;
+        TPanel *Panel16;
+        TPanel *Panel22;
+        TLabel *Label7;
+        TPanel *Panel23;
+        TLabel *Label8;
+        TPanel *Panel24;
+        TLabel *Label9;
+        TPanel *Panel25;
+        TLabel *Label10;
+        TPanel *Panel26;
+        TLabel *Label11;
+        TPanel *Panel27;
+        TLabel *Label12;
+        TPanel *Panel28;
+        TLabel *Label13;
+        TPanel *Panel29;
+        TLabel *Label14;
+        TPanel *Panel30;
+        TLabel *Label15;
+        TPanel *Panel31;
+        TLabel *Label16;
+        TPanel *Panel32;
+        TLabel *Label17;
+        TPanel *Panel33;
+        TLabel *Label18;
+        TPanel *Panel34;
+        TLabel *Label19;
+        TPanel *Panel35;
+        TLabel *Label20;
+        TPanel *Panel4;
+        TPanel *Panel10;
+        TLabel *Label2;
+        TPanel *Panel17;
+        TPanel *Panel15;
+        TEdit *Edit1;
+        TPanel *Panel36;
+        TEdit *Edit6;
+        TPanel *Panel37;
+        TEdit *Edit11;
+        TPanel *Panel38;
+        TEdit *Edit16;
+        TPanel *Panel39;
+        TEdit *Edit21;
+        TPanel *Panel40;
+        TEdit *Edit26;
+        TPanel *Panel41;
+        TEdit *Edit31;
+        TPanel *Panel42;
+        TEdit *Edit36;
+        TPanel *Panel43;
+        TEdit *Edit41;
+        TPanel *Panel44;
+        TEdit *Edit46;
+        TPanel *Panel45;
+        TEdit *Edit56;
+        TPanel *Panel46;
+        TEdit *Edit66;
+        TPanel *Panel47;
+        TEdit *Edit51;
+        TPanel *Panel48;
+        TEdit *Edit61;
+        TPanel *Panel5;
+        TPanel *Panel11;
+        TLabel *Label3;
+        TPanel *Panel18;
+        TPanel *Panel19;
+        TEdit *Edit2;
+        TPanel *Panel20;
+        TEdit *Edit7;
+        TPanel *Panel21;
+        TEdit *Edit12;
+        TPanel *Panel49;
+        TEdit *Edit17;
+        TPanel *Panel50;
+        TEdit *Edit22;
+        TPanel *Panel51;
+        TEdit *Edit27;
+        TPanel *Panel52;
+        TEdit *Edit32;
+        TPanel *Panel53;
+        TEdit *Edit37;
+        TPanel *Panel54;
+        TEdit *Edit42;
+        TPanel *Panel55;
+        TEdit *Edit47;
+        TPanel *Panel56;
+        TEdit *Edit57;
+        TPanel *Panel57;
+        TEdit *Edit67;
+        TPanel *Panel58;
+        TEdit *Edit52;
+        TPanel *Panel59;
+        TEdit *Edit62;
+        TPanel *Panel6;
+        TPanel *Panel12;
+        TLabel *Label4;
+        TPanel *Panel60;
+        TPanel *Panel61;
+        TEdit *Edit3;
+        TPanel *Panel62;
+        TEdit *Edit8;
+        TPanel *Panel63;
+        TEdit *Edit13;
+        TPanel *Panel64;
+        TEdit *Edit18;
+        TPanel *Panel65;
+        TEdit *Edit23;
+        TPanel *Panel66;
+        TEdit *Edit28;
+        TPanel *Panel67;
+        TEdit *Edit33;
+        TPanel *Panel68;
+        TEdit *Edit38;
+        TPanel *Panel69;
+        TEdit *Edit43;
+        TPanel *Panel70;
+        TEdit *Edit48;
+        TPanel *Panel71;
+        TEdit *Edit58;
+        TPanel *Panel72;
+        TEdit *Edit68;
+        TPanel *Panel73;
+        TEdit *Edit53;
+        TPanel *Panel74;
+        TEdit *Edit63;
+        TPanel *Panel7;
+        TPanel *Panel13;
+        TLabel *Label5;
+        TPanel *Panel75;
+        TPanel *Panel76;
+        TEdit *Edit4;
+        TPanel *Panel77;
+        TEdit *Edit9;
+        TPanel *Panel78;
+        TEdit *Edit14;
+        TPanel *Panel79;
+        TEdit *Edit19;
+        TPanel *Panel80;
+        TEdit *Edit24;
+        TPanel *Panel81;
+        TEdit *Edit29;
+        TPanel *Panel82;
+        TEdit *Edit34;
+        TPanel *Panel83;
+        TEdit *Edit39;
+        TPanel *Panel84;
+        TEdit *Edit44;
+        TPanel *Panel85;
+        TEdit *Edit49;
+        TPanel *Panel86;
+        TEdit *Edit59;
+        TPanel *Panel87;
+        TEdit *Edit69;
+        TPanel *Panel88;
+        TEdit *Edit54;
+        TPanel *Panel89;
+        TEdit *Edit64;
+        TPanel *Panel8;
+        TPanel *Panel14;
+        TLabel *Label6;
+        TPanel *Panel90;
+        TPanel *Panel91;
+        TEdit *Edit5;
+        TPanel *Panel92;
+        TEdit *Edit10;
+        TPanel *Panel93;
+        TEdit *Edit15;
+        TPanel *Panel94;
+        TEdit *Edit20;
+        TPanel *Panel95;
+        TEdit *Edit25;
+        TPanel *Panel96;
+        TEdit *Edit30;
+        TPanel *Panel97;
+        TEdit *Edit35;
+        TPanel *Panel98;
+        TEdit *Edit40;
+        TPanel *Panel99;
+        TEdit *Edit45;
+        TPanel *Panel100;
+        TEdit *Edit50;
+        TPanel *Panel101;
+        TEdit *Edit60;
+        TPanel *Panel102;
+        TEdit *Edit70;
+        TPanel *Panel103;
+        TEdit *Edit55;
+        TPanel *Panel104;
+        TEdit *Edit65;
+        TComboBox *ComboBox1;
+        TLabel *Label21;
+        TQuery *Query1;
+        void __fastcall Button2Click(TObject *Sender);
+        void __fastcall Button1Click(TObject *Sender);
+        void __fastcall ComboBox1Change(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+  __fastcall TReceiptEdition(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TReceiptEdition *ReceiptEdition;
+//---------------------------------------------------------------------------
+#endif
